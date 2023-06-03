@@ -5,7 +5,12 @@ function validarLogin(){
     if (caixas[i].value == "") {
       alert("Por favor, preencha todas as caixas.");
       return false;
+    }else{
+      window.location.href="index.html"
+      alert("Seja bem vindo!")
+      return false
     }
+
 }
 
 
