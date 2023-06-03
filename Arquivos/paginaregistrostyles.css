@@ -1,0 +1,57 @@
+body {
+    background: rgb(74, 7, 80);
+    background: linear-gradient(180deg, rgba(74, 7, 80, 1) 0%, rgba(34, 3, 37, 1) 0%, rgba(34, 3, 37, 1) 17%, rgba(0, 0, 0, 1) 100%);
+    margin: auto;
+}
+
+main {
+    padding: 100px;
+    text-align: center;
+  }
+  
+main h1 {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+.registro1 {
+    text-align: center;
+    color: white;
+  }
+  
+.registro1,
+  p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+  }
+  
+.footer,
+  p {
+    color: white;
+    text-align: center;
+  }
+  
+.rodape,
+  img {
+    margin: auto;
+  }
+  
+.input-reg {
+    display: block;
+    margin: 5px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+#botao-enviar {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

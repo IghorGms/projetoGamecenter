@@ -1,0 +1,96 @@
+body {
+    background: rgb(74, 7, 80);
+    background: linear-gradient(180deg, rgba(74, 7, 80, 1) 0%, rgba(34, 3, 37, 1) 0%, rgba(34, 3, 37, 1) 17%, rgba(0, 0, 0, 1) 100%);
+    margin: auto;
+}
+
+main {
+    padding: 100px;
+    text-align: center;
+  }
+  
+main h1 {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+nav {
+    background: rgb(74, 7, 80);
+    background: linear-gradient(180deg, rgba(74, 7, 80, 1) 0%, rgba(34, 3, 37, 1) 0%, rgba(34, 3, 37, 1) 17%, rgba(0, 0, 0, 1) 100%);
+    margin-right: 5px;
+}
+
+.image-menu-sup {
+    background-size: cover;
+    height: 10%;
+    background-image: url(novomenu1.jpeg);
+    padding: 10px;
+    font-size: 30px;
+}
+
+.listagem-menu-sup,
+a {
+    text-align: right;
+    padding: 15px;
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.listagem-menu-sup,
+a:hover {
+    color: blue;
+}
+
+main {
+    padding: 100px;
+    text-align: center;
+
+}
+
+main h1 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inputlogpass {
+    text-align: center;
+}
+
+.inputlogpass,
+p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+}
+
+.input-padrao {
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#botao-enviar {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer,
+p {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: lighter;
+    padding-top: 100px;
+    margin-bottom: 55px;
+}
