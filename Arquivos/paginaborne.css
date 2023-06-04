@@ -1,0 +1,100 @@
+body, main {
+    background: rgb(49, 7, 80);
+    background: radial-gradient(circle, rgba(49, 7, 80, 1) 0%, rgba(34, 3, 37, 1) 0%, rgba(34, 3, 37, 1) 17%, rgba(0, 0, 0, 1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.main, h1 {
+    text-align: center;
+    color: white;
+    padding-top: 45px;
+}
+
+.main, p {
+    padding-bottom: 75px;
+}
+
+nav {
+    text-align: right;
+    background: rgb(29, 0, 50);
+    background: linear-gradient(275deg, rgba(29, 0, 50, 1) 0%, rgba(47, 0, 78, 1) 0%, rgba(9, 0, 15, 1) 17%, rgba(0, 0, 0, 1) 100%);
+}
+
+.listagem-menu-sup, a {
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.listagem-menu-sup, a:hover {
+    color: blue;
+}
+
+.produto {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.produto img {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+
+.produto h1 {
+    font-size: 40px;
+}
+
+.produto p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.produto ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.produto ul li {
+    margin-bottom: 10px;
+}
+
+.info-versao {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.info-versao h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.info-versao p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.info-versao ul {
+    margin-top: 10px;
+}
+
+.info-versao ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.footer,
+p {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: lighter;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paginads3.css">
+    <link rel="shortcut icon" href="https://img.freepik.com/vetores-gratis/astronauta-bonito-relaxamento-frio-na-ilustracao-do-icone-do-vetor-dos-desenhos-animados-do-controlador-de-jogo-conceito-de-icone-de-ciencia-de-tecnologia-isolado-vetor-premium-estilo-flat-cartoon_138676-3717.jpg" type="image/x-icon">
+    <title>Dark Souls 3 - Compra</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div id="listagem-menu-sup">
+                <a href="paginaquemsomos.html">👨🏻‍💻 Quem Somos </a>
+                <a href="paginaquemsomos.html"> 🛒 Carrinho </a>
+                <a href="paginaperfil.html"> 🙋🏻 Perfil </a>
+            </div>
+        </nav>
+
+        <div class="produto">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/374320/capsule_616x353.jpg?t=1682651227"><br>
+            <h1>Dark Souls 3</h1>
+            <p>Escolha a versão:</p>
+            <ul>
+                <li>
+                    <a href="#" onclick="mostrarInfo('standard')">Standard Edition</a>
+                    <div id="info-standard" class="info-versao">
+                        <h2>Standard Edition</h2>
+                        <p>Valor: R$ 59,99</p>
+                        <p>O que está incluído:</p>
+                        <ul>
+                            <li>Dark Souls 3 - Jogo base</li>
+                            <li>Dark Souls 3 - Trilha sonora</li>
+                            <li>Atualizações e correções</li>
+                        </ul>
+                        <button onclick="comprar('standard')">Comprar</button>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" onclick="mostrarInfo('deluxe')">Deluxe Edition</a>
+                    <div id="info-deluxe" class="info-versao">
+                        <h2>Deluxe Edition</h2>
+                        <p>Valor: R$ 79,99</p>
+                        <p>O que está incluído:</p>
+                        <ul>
+                            <li>Dark Souls 3 - Jogo base</li>
+                            <li>Dark Souls 3 - Trilha sonora</li>
+                            <li>Atualizações e correções</li>
+                            <li>Dark Souls 3 - DLC: The Ringed City</li>
+                            <li>Dark Souls 3 - DLC: Ashes of Ariandel</li>
+                        </ul>
+                        <button onclick="comprar('deluxe')">Comprar</button>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" onclick="mostrarInfo('gold')">Gold Edition</a>
+                    <div id="info-gold" class="info-versao">
+                        <h2>Gold Edition</h2>
+                        <p>Valor: R$ 99,99</p>
+                        <p>O que está incluído:</p>
+                        <ul>
+                            <li>Dark Souls 3 - Jogo base</li>
+                            <li>Dark Souls 3 - Trilha sonora</li>
+                            <li>Dark Souls 3 - DLC: The Ringed City</li>
+                            <li>Atualizações e correções</li>
+                        </ul>
+                        <button onclick="comprar('gold')">Comprar</button>
+                    </div>
+                </li>
+                <li>
+                   <a href="#" onclick="mostrarInfo('seasonpass')"> Season Pass</a>
+                   <div id="info-seasonpass" class="info-versao">
+                    <h2>Season Pass</h2>
+                    <p>Valor: R$ 110,00</p>
+                    <p>O que está incluído:</p>
+                    <ul>
+                        <li>Dark Souls 3 - Jogo base</li>
+                        <li>Dark Souls 3 - Trilha sonora</li>
+                        <li>Dark Souls 3 - Pacote de itens Multiplayer</li>
+                        <li>Atualizações e correções</li>
+                    </ul>
+                        <button onclick="comprar('seasonpass')">Comprar</button>
+                   </div>
+                </li>
+                <li>
+                    <a href="#" onclick="mostrarInfo('remaster')">Dark Souls 3 Remaster</a>
+                    <div id="info-remaster" class="info-versao">
+                     <h2>Dark Souls 3 Remaster</h2>
+                     <p>Valor: R$ 150,00</p>
+                     <p>O que está incluído:</p>
+                     <ul>
+                        <li>Dark Souls 3 - Jogo base</li>
+                        <li>Dark Souls 3 - Trilha sonora</li>
+                        <li>Atualizações e correções</li>
+                        <li>Dark Souls 3 - DLC: The Ringed City</li>
+                        <li>Dark Souls 3 - DLC: Ashes of Ariandel</li>
+                        <li>Dark Souls 3 - Suporte a resulução 4K e pacote de gráficos melhorados</li>
+                     </ul>
+                        <button onclick="comprar('remaster')">Comprar</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p> Created and developed by: <br> (◕‿◕) CIP Dev's™® (◕‿◕) </p>
+    </footer>
+
+    <script src="paginads3.js"></script>
+</body>
+
+</html>

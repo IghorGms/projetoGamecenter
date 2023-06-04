@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina_pagamento.css">
+    <link rel="shortcut icon" href="https://img.freepik.com/vetores-gratis/astronauta-bonito-relaxamento-frio-na-ilustracao-do-icone-do-vetor-dos-desenhos-animados-do-controlador-de-jogo-conceito-de-icone-de-ciencia-de-tecnologia-isolado-vetor-premium-estilo-flat-cartoon_138676-3717.jpg" type="image/x-icon">
+    <title>Página de Pagamento</title>
+</head>
+<body>
+    <h1>Página de Pagamento</h1>
+
+    <div id="valor-compra"></div>
+
+    <script>
+        // Recupera os parâmetros da URL
+        const params = new URLSearchParams(window.location.search);
+        const versao = params.get("versao");
+        const valor = params.get("valor");
+
+        // Exibe o valor da compra
+        const valorCompraElement = document.getElementById("valor-compra");
+        valorCompraElement.textContent = "Valor da compra: R$ " + valor;
+    </script>
+</body>
+</html>
