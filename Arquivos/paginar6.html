@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paginaborne.css">
+    <link rel="shortcut icon" href="https://img.freepik.com/vetores-gratis/astronauta-bonito-relaxamento-frio-na-ilustracao-do-icone-do-vetor-dos-desenhos-animados-do-controlador-de-jogo-conceito-de-icone-de-ciencia-de-tecnologia-isolado-vetor-premium-estilo-flat-cartoon_138676-3717.jpg" type="image/x-icon">
+    <title>Rainbow Six - Compra</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div id="listagem-menu-sup">
+                <a href="paginaquemsomos.html">👨🏻‍💻 Quem Somos </a>
+                <a href="paginaquemsomos.html"> 🛒 Carrinho </a>
+                <a href="paginaperfil.html"> 🙋🏻 Perfil </a>
+            </div>
+        </nav>
+
+        <div class="produto">
+            <img src="https://gmedia.playstation.com/is/image/SIEPDC/rainbow-six-siege-operators-image-block-02-en-30jun21?$1600px$"><br>
+            <h1>Rainbow Six Siege</h1>
+            <p>Escolha a versão:</p>
+            <ul>
+                <li>
+                    <a href="#" onclick="mostrarInfo('standard')">Standard Edition</a>
+                    <div id="info-standard" class="info-versao">
+                        <h2>Standard Edition</h2>
+                        <p>Valor: R$ 59,99</p>
+                        <p>O que está incluído:</p>
+                        <ul>
+                            <li>Rainbow Six - Jogo base</li>
+                            <li>Atualizações e correções</li>
+                        </ul>
+                        <button onclick="comprar('standard')">Comprar</button>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" onclick="mostrarInfo('deluxe')">Deluxe Edition</a>
+                    <div id="info-deluxe" class="info-versao">
+                        <h2>Deluxe Edition</h2>
+                        <p>Valor: R$ 89,99</p>
+                        <p>O que está incluído:</p>
+                        <ul>
+                            <li>Rainbow Six - Jogo base</li>
+                            <li>Rainbow Six - Todos os mapas</li>
+                            <li>Rainbow Six - Trilha sonora</li>
+                            <li>Atualizações e correções</li>
+                        </ul>
+                        <button onclick="comprar('deluxe')">Comprar</button>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" onclick="mostrarInfo('gold')">Operator Edition</a>
+                    <div id="info-gold" class="info-versao">
+                        <h2>Operator Edition</h2>
+                        <p>Valor: R$ 199,99</p>
+                        <p>O que está incluído:</p>
+                        <ul>
+                            <li>Rainbow Six - Jogo base</li>
+                            <li>Rainbow Six - Todos os modos</li>
+                            <li>Rainbow Six - Todos os mapas</li>
+                            <li>Rainbow Six - Trilha sonora</li>
+                            <li>Atualizações e correções</li>
+                        </ul>
+                        <button onclick="comprar('gold')">Comprar</button>
+                    </div>
+                </li>
+                <li>
+                   <a href="#" onclick="mostrarInfo('seasonpass')"> Ultimate Edition</a>
+                   <div id="info-seasonpass" class="info-versao">
+                    <h2>Ultimate Edition</h2>
+                    <p>Valor: R$ 259,99</p>
+                    <p>O que está incluído:</p>
+                    <ul>
+                        <li>Rainbow Six - Jogo base</li>
+                        <li>Rainbow Six - Os 16 Operadores dos Anos 1 e 2</li>
+                        <li>Rainbow Six - Todos os mapas</li>
+                        <li>Rainbow Six - Todos os modos</li>
+                        <li>Rainbow Six - Trilha sonora</li>
+                        <li>Atualizações e correções</li>
+                    </ul>
+                        <button onclick="comprar('seasonpass')">Comprar</button>
+
+                   </div>
+                </li>
+                <li>
+                    <a href="#" onclick="mostrarInfo('definitive')">Rainbow Six Bundle</a>
+                    <div id="info-definitive" class="info-versao">
+                     <h2>Rainbow Six Bundle</h2>
+                     <p>Valor: R$ 340,00</p>
+                     <p>O que está incluído:</p>
+                     <ul>
+                        <li>Rainbow Six Siege - Standard Edition</li>
+                        <li>Rainbow Six Vegas</li>
+                        <li>Rainbow Six Vegas 2</li>
+                        <li>Rainbow Six Lockdown</li>
+                        <li>Rainbow Six 3</li>
+                        <li>Atualizações e correções</li>
+                     </ul>
+                        <button onclick="comprar('definitive')">Comprar</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p> Created and developed by: <br> (◕‿◕) CIP Dev's™® (◕‿◕) </p>
+    </footer>
+
+    <script src="paginar6.js"></script>
+</body>
+
+</html>
