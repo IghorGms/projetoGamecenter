@@ -18,25 +18,25 @@ function comprar(versao) {
     var jogo;
     switch (versao) {
         case 'Standard Edition':
-            jogo='Rainbow Six Siege';
+            jogo = 'Rainbow Six Siege '
             valor = '59,99';
             break;
         case 'Deluxe Edition':
-            jogo='Rainbow Six Siege';
-            valor = '89,99';
+            jogo = 'Rainbow Six Siege  '
+            valor = '79,99';
             break;
         case 'Operator Edition':
-            jogo='Rainbow Six Siege';
-            valor = '199,99';
+            jogo = 'Rainbow Six Siege  '
+            valor = '99,99';
             break;
         case 'Ultimate Edition':
-            jogo='Rainbow Six Siege';
-            valor = '259,99';
+            jogo = 'Rainbow Six Siege  '
+            valor = '110,00'
             break;
         case 'Bundle':
-            jogo='Rainbow Six Siege';
-            valor = '340,00' ;
-            break;         
+            jogo = 'Rainbow Six Siege '
+            valor ='150,99'
+            break;          
         default:
             valor = '0';
             break;
