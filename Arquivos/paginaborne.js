@@ -15,20 +15,26 @@ function mostrarInfo(versao) {
 
 function comprar(versao) {
     var valor;
-    switch (versao) {
-        case 'standard':
+    var jogo;
+        switch (versao) {
+        case 'Standard Edition':
+            jogo='BloodBorne';
             valor = '59,99';
             break;
-        case 'deluxe':
+        case 'Complete Edition':
+            jogo='BloodBorne';
             valor = '79,99';
             break;
-        case 'gold':
+        case 'Deluxe Edition':
+            jogo='BloodBorne';
             valor = '99,99';
             break;
-        case 'seasonpass':
+        case 'Season Pass':
+            jogo='BloodBorne';
             valor = '110,00'
             break;
-        case 'definitive':
+        case 'Definitive Edition':
+            jogo='BloodBorne';
             valor = '240,00' 
             break;         
         default:
@@ -36,7 +42,10 @@ function comprar(versao) {
             break;
     }
 
-    window.location.href = "pagina_pagamento.html?versao=" + versao + "&valor=" + valor;
+    alert (jogo +" " + versao +", otima escolha")
+    window.location.href = "pagina_pagamento.html?versao="+ jogo +" " + versao + "&valor=" + valor;
+   
+
 }
 
 

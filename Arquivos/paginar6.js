@@ -15,28 +15,34 @@ function mostrarInfo(versao) {
 
 function comprar(versao) {
     var valor;
+    var jogo;
     switch (versao) {
-        case 'standard':
+        case 'Standard Edition':
+            jogo='Rainbow Six Siege';
             valor = '59,99';
             break;
-        case 'deluxe':
+        case 'Deluxe Edition':
+            jogo='Rainbow Six Siege';
             valor = '89,99';
             break;
-        case 'gold':
+        case 'Operator Edition':
+            jogo='Rainbow Six Siege';
             valor = '199,99';
             break;
-        case 'seasonpass':
-            valor = '259,99'
+        case 'Ultimate Edition':
+            jogo='Rainbow Six Siege';
+            valor = '259,99';
             break;
-        case 'definitive':
-            valor = '340,00' 
+        case 'Bundle':
+            jogo='Rainbow Six Siege';
+            valor = '340,00' ;
             break;         
         default:
             valor = '0';
             break;
     }
-
-    window.location.href = "pagina_pagamento.html?versao=" + versao + "&valor=" + valor;
+    alert (jogo +" " + versao +", otima escolha")
+    window.location.href = "pagina_pagamento.html?versao="+ jogo +" " + versao + "&valor=" + valor;
 }
 
 

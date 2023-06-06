@@ -15,20 +15,26 @@ function mostrarInfo(versao) {
 
 function comprar(versao) {
     var valor;
+    var jogo;
     switch (versao) {
-        case 'standard':
+        case 'Standard Edition':
+            jogo ='Doom'
             valor = '149,00';
             break;
-        case 'deluxe':
+        case 'Eternal Year One Pass':
+            jogo ='Doom'
             valor = '119,00';
             break;
-        case 'gold':
+        case 'Eternal The Ancient Gods':
+            jogo ='Doom'
             valor = '79,00';
             break;
-        case 'seasonpass':
+        case 'Eternal Year One Pass Edition':
+            jogo ='Doom'
             valor = '249,00'
             break;
-        case 'definitive':
+        case 'Bundle Edition':
+            jogo ='Doom'
             valor = '440,00' 
             break;         
         default:
@@ -36,7 +42,10 @@ function comprar(versao) {
             break;
     }
 
-    window.location.href = "pagina_pagamento.html?versao=" + versao + "&valor=" + valor;
+    alert (jogo +" " + versao +", otima escolha")
+
+    window.location.href = "pagina_pagamento.html?versao="+ jogo +" " + versao + "&valor=" + valor;
+   
 }
 
 

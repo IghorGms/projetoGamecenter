@@ -15,20 +15,26 @@ function mostrarInfo(versao) {
 
 function comprar(versao) {
     var valor;
+    var jogo;
     switch (versao) {
-        case 'standard':
+        case 'Standard Edition':
+            jogo="Motal Kombat 11"
             valor = '229,99';
             break;
-        case 'deluxe':
+        case 'Ultimate':
+            jogo="Motal Kombat 11"
             valor = '279,99';
             break;
-        case 'gold':
+        case 'Legendary Edition':
+            jogo="Motal Kombat 11"
             valor = '479,00';
             break;
-        case 'seasonpass':
+        case 'and X Bundle':
+            jogo="Motal Kombat 11"
             valor = '319,98'
             break;
-        case 'definitive':
+        case 'Legendary Pack':
+            jogo="Motal Kombat 11"
             valor = '670,00' 
             break;         
         default:
@@ -36,7 +42,9 @@ function comprar(versao) {
             break;
     }
 
-    window.location.href = "pagina_pagamento.html?versao=" + versao + "&valor=" + valor;
+    alert (jogo +" " + versao +", otima escolha")
+    window.location.href = "pagina_pagamento.html?versao="+ jogo +" " + versao + "&valor=" + valor;
+   
 }
 
 

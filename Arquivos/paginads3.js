@@ -15,28 +15,34 @@ function mostrarInfo(versao) {
 
 function comprar(versao) {
     var valor;
+    var jogo;
     switch (versao) {
-        case 'standard':
+        case 'Standard Edition':
+            jogo = 'DarkSouls 3 '
             valor = '59,99';
             break;
-        case 'deluxe':
+        case 'Deluxe Edition':
+            jogo = 'DarkSouls 3 '
             valor = '79,99';
             break;
-        case 'gold':
+        case 'Gold Edition':
+            jogo = 'DarkSouls 3 '
             valor = '99,99';
             break;
-        case 'seasonpass':
+        case 'Season Pass':
+            jogo = 'DarkSouls 3 '
             valor = '110,00'
             break;
-        case 'remaster':
+        case 'Dark Souls 3 Remaster':
+            jogo = ''
             valor ='150,99'
             break;          
         default:
             valor = '0';
             break;
     }
-
-    window.location.href = "pagina_pagamento.html?versao=" + versao + "&valor=" + valor;
+    alert ("Dark Souls 3" +" " + versao +", otima escolha")
+    window.location.href = "pagina_pagamento.html?versao=" + jogo + versao + "&valor=" + valor;
 }
 
 
