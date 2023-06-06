@@ -8,4 +8,4 @@
     e com o back na parte de puxar o valor das dlc e enviar para a pagina ''pagina_pagamento.html''
     OBS: ALTEREI 3 JOGOS DA TELA INICIAL PQ EU QUIS MESMO ;D.
 
-Quintas 06/06 mudei a tela de compra, arrume imediatamente
+Quintas 06/06 mudei a tela de compra, arrume imediatamente e coloquei um botão la
