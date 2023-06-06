@@ -12,6 +12,9 @@ body, main{
 
 .main, p{
     padding-bottom: 75px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
 }
 
 nav {
@@ -53,11 +56,9 @@ nav {
     text-align: center;
 }
 
-.footer,
-p {
-    color: black;
+.footer {
     text-align: center;
     font-size: 25px;
-    color: white;
+    color: purple;
     font-weight: lighter;
 }

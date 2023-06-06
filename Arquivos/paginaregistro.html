@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="gamelogo.jfif" type="image/x-icon">
-    <link rel="shortcut icon" href="https://img.freepik.com/vetores-gratis/astronauta-bonito-relaxamento-frio-na-ilustracao-do-icone-do-vetor-dos-desenhos-animados-do-controlador-de-jogo-conceito-de-icone-de-ciencia-de-tecnologia-isolado-vetor-premium-estilo-flat-cartoon_138676-3717.jpg" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="https://img.freepik.com/vetores-gratis/astronauta-bonito-relaxamento-frio-na-ilustracao-do-icone-do-vetor-dos-desenhos-animados-do-controlador-de-jogo-conceito-de-icone-de-ciencia-de-tecnologia-isolado-vetor-premium-estilo-flat-cartoon_138676-3717.jpg"
+        type="image/x-icon">
     <title>GamePlace</title>
     <link rel="stylesheet" href="paginaregistrostyles.css">
 </head>
+
 <body>
     <main>
 
@@ -17,25 +21,26 @@
         <div class="registro1">
             <label for="nome">Nome completo:</label>
             <input type="text" id="nomecomp" class="input-reg" required>
-            <br>
+
+            <label for="idade">Idade:</label>
+            <input type="date" id="idade" class="input-reg" required>
+            
             <label for="email">E-mail:</label>
             <input type="text" id="email" class="input-reg" required>
-            <br>
+
             <label for="numero">Repita o E-mail:</label>
-            <input type="text" id="email" class="input-reg" required><br>
-            <br>
-            <label for="idade">Idade:</label>
-            <input type="date" id="idade" class="input-reg" required><br>
-            <br>
+            <input type="text" id="email" class="input-reg" required>
+
             <label for="senha">Senha:</label>
             <input type="password" id="senha" class="input-reg" required><br>
-            <br>
+            
             <button id="botao-enviar" onclick="validarRegistro()">Registrar</button>
         </div>
     </main>
-    <footer>    
+    <footer>
         <p> Created and developed by: <br> (◕‿◕) CIP Dev's™® (◕‿◕) </p>
     </footer>
     <script src="paginaregistro.js"></script>
 </body>
+
 </html>
